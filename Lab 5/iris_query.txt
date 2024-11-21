@@ -1,0 +1,4 @@
+SELECT count(*) FROM iris.iris
+where Species = 'Iris-virginica' 
+and SepalWidthCm > 3 
+and PetalLengthCm < 2
